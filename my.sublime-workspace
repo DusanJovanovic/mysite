@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"vi",
+				"views\tmodule"
+			],
+			[
+				"Htt",
+				"HttpResponse\tclass"
+			],
+			[
 				"H",
-				"HttpResponse"
+				"http\tmodule"
+			],
+			[
+				"fr",
+				"from\tkeyword"
 			],
 			[
 				"tre",
@@ -22,10 +34,6 @@
 			[
 				"nav",
 				"navbar"
-			],
-			[
-				"Htt",
-				"HttpResponseRedirect"
 			],
 			[
 				"auth",
@@ -128,10 +136,29 @@
 	"buffers":
 	[
 		{
-			"file": "manage.py",
+			"file": "polls/urls.py",
 			"settings":
 			{
-				"buffer_size": 538,
+				"buffer_size": 109,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mysite/urls.py",
+			"settings":
+			{
+				"buffer_size": 800,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "polls/views.py",
+			"settings":
+			{
+				"buffer_size": 192,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -149,7 +176,11 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Install Package"
 			],
 			[
 				"xpath",
@@ -160,7 +191,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 192.0,
 		"history":
 		[
 		]
@@ -177,13 +208,16 @@
 	"expanded_folders":
 	[
 		"/C/Users/Zakharov/Documents/mysite",
-		"/C/Users/Zakharov/Documents/mysite/mysite"
+		"/C/Users/Zakharov/Documents/mysite/mysite",
+		"/C/Users/Zakharov/Documents/mysite/polls"
 	],
 	"file_history":
 	[
+		"/C/Users/Zakharov/Documents/mysite/manage.py",
 		"/C/Users/Zakharov/Documents/mysite/mysite/settings.py",
-		"/C/Users/Zakharov/Documents/mysite/mysite/urls.py",
+		"/C/Users/Zakharov/Documents/mysite/mysite/wsgi.py",
 		"/C/Users/Zakharov/Documents/mysite/mysite/__init__.py",
+		"/C/Users/Zakharov/Documents/mysite/mysite/urls.py",
 		"/C/Users/Zakharov/Treasuregram/mainapp/forms.py",
 		"/C/Users/Zakharov/Treasuregram/mainapp/templates/search.html",
 		"/C/Users/Zakharov/Treasuregram/mainapp/static/js/main.js",
@@ -261,37 +295,131 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "manage.py",
+					"file": "polls/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								109,
+								109
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mysite/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "polls/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -303,7 +431,7 @@
 	},
 	"input":
 	{
-		"height": 40.0
+		"height": 44.0
 	},
 	"layout":
 	{
@@ -314,11 +442,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
