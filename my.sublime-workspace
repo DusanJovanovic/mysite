@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"qu",
+				"question_id\tparam"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"H",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"cho",
+				"choice"
+			],
+			[
+				"det",
+				"detail"
+			],
+			[
+				"que",
+				"question\tstatement"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else"
+			],
+			[
+				"ge",
+				"get_object_or_404\tfunction"
+			],
+			[
 				"co",
-				"context\tstatement"
+				"counter"
+			],
+			[
+				"ch",
+				"choice"
 			],
 			[
 				"te",
@@ -18,10 +54,6 @@
 			[
 				"la",
 				"latest_question_list\tstatement"
-			],
-			[
-				"que",
-				"question_id\tparam"
 			],
 			[
 				"ad",
@@ -54,10 +86,6 @@
 			[
 				"Htt",
 				"HttpResponse\tclass"
-			],
-			[
-				"H",
-				"http\tmodule"
 			],
 			[
 				"fr",
@@ -171,7 +199,7 @@
 			"file": "polls/urls.py",
 			"settings":
 			{
-				"buffer_size": 412,
+				"buffer_size": 436,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -216,7 +244,7 @@
 			"file": "polls/views.py",
 			"settings":
 			{
-				"buffer_size": 790,
+				"buffer_size": 1518,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -234,7 +262,16 @@
 			"file": "polls/templates/polls/detail.html",
 			"settings":
 			{
-				"buffer_size": 143,
+				"buffer_size": 513,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "polls/templates/polls/results.html",
+			"settings":
+			{
+				"buffer_size": 263,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -384,15 +421,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 412,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								329,
+								329
 							]
 						],
 						"settings":
@@ -419,7 +456,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -458,7 +495,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -488,7 +525,7 @@
 						"translation.y": 2304.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -527,7 +564,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -566,7 +603,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -575,15 +612,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 1518,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								465,
-								465
+								700,
+								700
 							]
 						],
 						"settings":
@@ -601,12 +638,16 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -615,7 +656,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -644,7 +685,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -653,15 +694,44 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 143,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "polls/templates/polls/results.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
 							]
 						],
 						"settings":
@@ -673,7 +743,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -755,7 +825,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
